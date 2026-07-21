@@ -54,6 +54,12 @@ public class App {
 
     }
 
+    // situacion 1 conversion implicita
+    int numeroEntero = 10;
+    double numeroDouble = numeroEntero;     // Conversión implícita de int a double
+    Sout.println("Número entero: " + numeroEntero);
+
+
 
 public static void ejemploScanner() {
     Scanner sc = new Scanner(System.in);
@@ -72,4 +78,19 @@ public static void ejemploScanner() {
     System.out.println("Hola " + nombreUsuario + ", tienes " + edadUsuario + " años y ganas " + salarioUsuario);
 
     sc.close(); // Es buena práctica cerrar el Scanner cuando ya no lo necesites
+}
+
+
+public static void ejemploRelacionales() {
+    int a = 10;
+    int b = 5;
+
+    System.out.println(a > b ); // true
+    system.out.println(a < b ); // false
+    System.out.println(a >= b );    // true
+    System.out.println(a <= b ); // false
+    System.out.println(a == b );// false
+    System.out.println(a != b );    // true
+
+    
 }
