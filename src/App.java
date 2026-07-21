@@ -1,8 +1,13 @@
 import java.util.Scanner;
 
+
+
 public class App {
+  
+
+    
     public static void main(String[] args) throws Exception {
-          
+      /*     
         Scanner sc = new Scanner (System.in);
 /* 
         System.out.println("ingrese su nombre:");
@@ -16,7 +21,7 @@ public class App {
         */
 
 
-
+/* 
         System.out.print("Ingrese su edad: ");
 int edadUsuario = sc.nextInt(); // Lee un entero
 
@@ -98,4 +103,22 @@ public static void ejemploRelacionales() {
 
     
 }
+*/ 
+
+public static void EjercicioIMC() {
+
+    var sc = new Scanner(System.in);
+
+    System.out.print("Ingrese su peso en kilogramos: ");
+    double peso = sc.nextDouble();
+
+    System.out.print("Ingrese su altura en metros: ");
+    double altura = sc.nextDouble();
+    
+    int  imc = (int)(peso / (altura * altura));
+
+    System.out.println("Su IMC es: " + imc);
+}
+}
+
 
