@@ -82,6 +82,7 @@ public static void ejemploScanner() {
 
 
 public static void ejemploRelacionales() {
+
     int a = 10;
     int b = 5;
 
@@ -92,5 +93,9 @@ public static void ejemploRelacionales() {
     System.out.println(a == b );// false
     System.out.println(a != b );    // true
 
+    boolean resultado = a > b; // true
+    System.out.println("Resultado de la comparación: " + resultado);
+
     
 }
+
