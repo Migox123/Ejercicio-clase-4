@@ -44,6 +44,17 @@ sc.close(); // Es buena práctica cerrar el Scanner cuando ya no lo necesites
     }
 }
 
+public class App {
+    public static void ejemploConversion(String[] args) {
+        int cantidad =  5;
+        int total = 4;
+        =total/Cantidad; // División entera
+        int promedio = total / cantidad; // División entera
+        System.out.println("Promedio: " + promedio);
+
+    }
+
+
 public static void ejemploScanner() {
     Scanner sc = new Scanner(System.in);
 
